@@ -1,0 +1,9 @@
+---
+- hosts: database
+  gather_facts: yes
+  vars_files:
+    - default.yaml
+  roles:
+    - role: ansible-role-mysql
+      become: yes
+
