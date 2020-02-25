@@ -1,7 +1,7 @@
 [host:vars]
-ansible_user = ubuntu
-ansible_password = matilda16
+ansible_user = user
+ansible_password = password
 
 [host]
-ansible_host = 34.211.170.164
+ansible_host = host
 
